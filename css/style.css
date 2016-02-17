@@ -2,6 +2,7 @@ body {
   background-image: url(../img/bg.jpg);
 }
 .box {
+  height: 980px;
   width: 1000px;
   margin: 0 auto;
   position: relative;
@@ -36,8 +37,11 @@ body {
   text-decoration: underline;
 }
 .nav {
-  height: 30px;
+  position: relative;
+  height: 29px;
   background-color: #333333;
+  border-bottom: 1px solid black;
+  box-shadow: 0 3px 2px #333333;
 }
 .nav li {
   float: left;
@@ -52,6 +56,7 @@ body {
   width: 142px;
   background-color: #333333;
   position: absolute;
+  box-shadow: 0 8px 5px #333333;
 }
 .nav li ul li {
   text-align: left;
@@ -69,13 +74,10 @@ body {
   clear: both;
 }
 .content{
-  position: relative;
   width: 1000px;
   overflow: hidden;
 }
 .info {
-  position: absolute;
-  height: 100%;
   float: left;
   width: 210px;
   background-color: #edeef0;
@@ -83,6 +85,8 @@ body {
   line-height: 24px;
   font-size: 14px;
   text-align: center;
+  padding-bottom: 2000px;
+  margin-bottom: -2000px;
 }
 .news {
   width: 210px;
