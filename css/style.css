@@ -1,8 +1,10 @@
 body {
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/bg.png);
+  background-repeat: repeat-x;
+  background-color: #0c739f;
 }
 .box {
-  height: 980px;
+  height: auto;
   width: 1000px;
   margin: 0 auto;
   position: relative;
@@ -96,6 +98,8 @@ body {
   line-height: 24px;
   font-size: 14px;
   text-align: center;
+  padding-bottom: 2000px;
+  margin-bottom: -2000px;
 }
 h1 {
   line-height: 32px;
